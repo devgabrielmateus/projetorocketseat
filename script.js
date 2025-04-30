@@ -9,13 +9,13 @@ function toggleMode() {
   if (html.classList.contains("light")) {
     // se tiver light mode, adicionar a imagem light
     img.setAttribute("src", "./assets/avatar-light.png")
-    img.setAttribute("alt", "Foto do Mayk no light mode")
+    img.setAttribute("alt", "Gabriel de óculos escuros")
   } else {
     // se tiver sem light mode, manter a imagem normal
     img.setAttribute("src", "./assets/avatar.png")
     img.setAttribute(
       "alt",
-      "Foto do Gabriel Mateus Rossi tirando uma foto na academia"
+      "Gabriel tirando uma foto na academia"
     )
   }
 }
